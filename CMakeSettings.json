@@ -1,0 +1,33 @@
+{
+    // See https://go.microsoft.com//fwlink//?linkid=834763 for more information about this file.
+    "configurations": [
+      {
+        "name": "x64-Debug",
+        "generator": "Visual Studio 15 2017 Win64",
+        "configurationType": "Debug",
+        "buildRoot": "${projectDir}\\.vs\\build\\${workspaceHash}\\${name}",
+        "cmakeCommandArgs": "",
+        "buildCommandArgs": "-m -v:minimal",
+        "variables": [
+          {
+            "name": "OpenCV_DIR",
+            "value": "B:\\Libraries\\OpenCV4.0.1\\"
+          }
+        ]
+      },
+      {
+        "name": "x64-Release",
+        "generator": "Visual Studio 15 2017 Win64",
+        "configurationType": "Release",
+        "buildRoot": "${projectDir}\\.vs\\build\\${workspaceHash}\\${name}",
+        "cmakeCommandArgs": "",
+        "buildCommandArgs": "-m -v:minimal",
+        "variables": [
+          {
+            "name": "OpenCV_DIR",
+            "value": "B:\\Libraries\\OpenCV4.0.1\\"
+          }
+        ]
+      }
+    ]
+}

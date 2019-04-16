@@ -1,0 +1,3 @@
+SET SUBDIR="%~dp0"
+SET SUBDIR=%SUBDIR:~0,-2%
+subst B: %SUBDIR%"
